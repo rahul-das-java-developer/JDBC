@@ -19,9 +19,7 @@ public class FetchDataBasedOnCondition {
 			try {
 				Connection connection = DriverManager.getConnection(url,user,pwd);
 //				String sql="SELECT * from principal";
-				
-//				String sql="SELECT name from principal"; //name
-				
+//				String sql="SELECT name from principal"; //name			
 //				String sql="SELECT name,age from principal"; //name & age
 				
 				String sql="SELECT age from principal where age>=32"; 

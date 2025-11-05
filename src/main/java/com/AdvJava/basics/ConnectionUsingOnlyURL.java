@@ -32,7 +32,7 @@ public class ConnectionUsingOnlyURL {
 					System.out.println("PRINCIPAL GENDER: "+rs.getString(5));
 					System.out.println("PRINCIPAL CONTACT NO: "+rs.getLong(6));
 					System.out.println("PRINCIPAL ADDRESS: "+rs.getString(7));
-					System.out.println("------------------------------------------------------------");
+					System.out.println("-----------------------------------------------");
 				}
 				
 				System.out.println("Data fetched");
