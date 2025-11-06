@@ -24,8 +24,7 @@ public class FetchDataBasedOnCondition {
 				
 				String sql="SELECT age from principal where age>=32"; 
 				
-				Statement stmt=connection.createStatement();
-				
+				Statement stmt=connection.createStatement();	
 				ResultSet executeQuery = stmt.executeQuery(sql);
 				
 				while(executeQuery.next())

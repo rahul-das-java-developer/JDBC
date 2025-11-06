@@ -35,7 +35,7 @@ public class ConnectionUsingOnlyURL {
 					System.out.println("-----------------------------------------------");
 				}
 				
-				System.out.println("Data fetched");
+				System.out.println("Data fetched!!");
 				
 				connection.close();
 				
